@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Iftikhar Uddin — Graphic Designer, Frontend Developer &amp; AI Chatbot Developer</title>
+  <meta name="description" content="Creative portfolio of Iftikhar Uddin — graphic design, responsive frontend websites and AI chatbot development for businesses and brands.">
+  <meta name="author" content="Iftikhar Uddin">
+  <meta name="theme-color" content="#0B0B0B">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Iftikhar Uddin — Creative Portfolio">
+  <meta property="og:description" content="Graphic Design • Frontend Development • AI Chatbots. Open the portfolio book.">
+  <meta property="og:image" content="assets/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Iftikhar Uddin — Creative Portfolio">
+  <meta name="twitter:description" content="Graphic Design • Frontend Development • AI Chatbots.">
+  <meta name="twitter:image" content="assets/og-image.png">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="style.css">
+
+  <script>document.documentElement.classList.add('js');</script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"Iftikhar Uddin","jobTitle":"Graphic Designer, Frontend Developer and AI Chatbot Developer","description":"Creative designer and frontend developer building visual identities, responsive websites and AI chatbots."}
+  </script>
+</head>
+<body>
+
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader__mark">IU</div>
+    <div class="loader__line"><span></span></div>
+    <div class="loader__sub">Creative Portfolio</div>
+  </div>
+
+  <a class="skip-link" href="#main">Skip to portfolio</a>
+  <div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__label"></span></div>
+
+  <header class="topbar">
+    <button class="brand" type="button" data-goto="1" aria-label="Return to the cover">
+      <span class="brand__mark">IU</span>
+      <span class="brand__name">Iftikhar Uddin</span>
+    </button>
+    <button class="chip" type="button" data-goto="12">Let&rsquo;s talk</button>
+  </header>
+
+  <main id="main">
+    <h1 class="visually-hidden">Iftikhar Uddin — Graphic Designer, Frontend Developer and AI Chatbot Developer</h1>
+
+    <div class="stage" id="stage">
+      <div class="book" id="book" role="group" aria-roledescription="book" aria-label="Iftikhar Uddin portfolio book">
+        <div class="block block--l" aria-hidden="true"></div>
+        <div class="block block--r" aria-hidden="true"></div>
+        <button class="zone zone--prev" id="zonePrev" type="button" aria-label="Previous page"></button>
+        <button class="zone zone--next" id="zoneNext" type="button" aria-label="Next page"></button>
+      </div>
+    </div>
+
+    <!-- All 12 pages live here. script.js moves them into the book. Without JavaScript they simply read top to bottom. -->
+    <div id="pageSource">
+
+      <!-- ===== PAGE 01 — COVER ===== -->
+      <article class="page page--cover is-dark" id="page-1" data-page="1" data-title="Cover" aria-label="Cover">
+        <div class="page-inner">
+          <div class="cover__top"><span>Portfolio</span><span>Edition 2026</span></div>
+
+          <div class="cover__frame">
+            <div class="portrait portrait--arch">
+              <img src="images/portrait.png" alt="Portrait of Iftikhar Uddin" width="480" height="600" decoding="async"
+                   onerror="this.closest('.portrait').classList.add('no-photo');this.remove()">
+            </div>
+          </div>
+
+          <h2 class="cover__name">Iftikhar<br>Uddin</h2>
+          <p class="cover__title">Creative Portfolio</p>
+          <p class="cover__sub">Graphic Design <i>•</i> Frontend Development <i>•</i> AI Chatbots</p>
+
+          <button class="btn btn--gold" type="button" data-action="open">Open Portfolio <span class="btn__arrow" aria-hidden="true">&rarr;</span></button>
+        </div>
+      </article>
+
+      <!-- ===== PAGE 02 — ABOUT ===== -->
+      <article class="page" id="page-2" data-page="2" data-title="About Me" aria-labelledby="h-about">
+        <div class="page-inner">
+          <header class="head">
+            <p class="eyebrow"><b>02</b> — Introduction</p>
+            <h2 class="title" id="h-about">About <em>Me</em></h2>
+          </header>
+
+          <div class="about">
+            <div class="about__text">
+              <p class="lede">I&rsquo;m Iftikhar Uddin, a creative designer and frontend developer focused on building visually compelling digital experiences.</p>
+              <p>My work combines graphic design, modern frontend development, and AI-powered solutions. I enjoy turning ideas into polished visual identities, responsive websites, and practical digital products.</p>
+              <p>I focus on creating work that is not only visually attractive, but also functional, user-friendly, and professionally presented.</p>
+            </div>
+            <figure class="about__portrait">
+              <div class="portrait">
+                <img src="images/portrait.png" alt="Portrait of Iftikhar Uddin" width="480" height="600" loading="lazy" decoding="async"
+                     onerror="this.closest('.portrait').classList.add('no-photo');this.remove()">
+              </div>
+              <figcaption>Graphic Designer<br>Frontend Developer<br>AI Chatbot Developer</figcaption>
+            </figure>
+          </div>
+
+          <section class="mini" aria-labelledby="h-whatido">
+            <h3 class="eyebrow" id="h-whatido">What I Do</h3>
+            <ul class="mini__list">
+              <li><span>01</span>Graphic Design</li>
+              <li><span>02</span>Frontend Development</li>
+              <li><span>03</span>AI Chatbots</li>
+            </ul>
+          </section>
+
+          <section class="skills-line" aria-labelledby="h-skillsov">
+            <h3 class="eyebrow" id="h-skillsov">Skills overview</h3>
+            <p>Photoshop &middot; Illustrator &middot; Canva &middot; HTML &middot; CSS &middot; JavaScript &middot; Python &middot; FastAPI</p>
+          </section>
+
+          <div class="signature" aria-hidden="true">
+            <svg viewBox="0 0 150 56" width="132" height="49" fill="none">
+              <circle cx="28" cy="28" r="25" stroke="currentColor" stroke-opacity=".35"/>
+              <text x="28" y="35" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-style="italic" font-size="22" fill="currentColor">IU</text>
+              <path d="M62 36c12-14 22 8 34-6 6-7 12-3 16 2 4 5 10 4 18-4" stroke="#C8A45D" stroke-width="1.4" stroke-linecap="round"/>
+            </svg>
+          </div>
+        </div>
+      </article>
+
+      <!-- ===== PAGE 03 — SERVICES ===== -->
+      <article class="page" id="page-3" data-page="3" data-title="Services" aria-labelledby="h-services">
+        <div class="page-inner">
+          <header class="head">
+            <p class="eyebrow"><b>03</b> — Services</p>
+            <h2 class="title" id="h-services">What I <em>Do</em></h2>
+          </header>
+
+          <div class="services">
+            <section class="service">
+              <span class="service__no">01</span>
+              <div>
+                <h3>Graphic Design</h3>
+                <p>Visual communication and brand design that helps businesses present themselves professionally and memorably.</p>
+                <ul class="tags">
+                  <li>Logo Design</li><li>Brand Identity</li><li>Social Media Designs</li><li>Marketing Materials</li><li>Posters &amp; Banners</li><li>Business Cards</li><li>Brochures</li><li>Vector Design</li><li>Promotional Graphics</li>
+                </ul>
+              </div>
+            </section>
+            <section class="service">
+              <span class="service__no">02</span>
+              <div>
+                <h3>Frontend Website Development</h3>
+                <p>Modern, responsive and visually engaging websites designed for businesses, brands and digital products.</p>
+                <ul class="tags">
+                  <li>Responsive Websites</li><li>Landing Pages</li><li>Business Websites</li><li>Restaurant Websites</li><li>Portfolio Websites</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Modern UI/UX Implementation</li>
+                </ul>
+              </div>
+            </section>
+            <section class="service">
+              <span class="service__no">03</span>
+              <div>
+                <h3>AI Chatbots</h3>
+                <p>Practical AI chatbot solutions that help businesses automate communication, customer support and information delivery.</p>
+                <ul class="tags">
+                  <li>AI Chatbots</li><li>Customer Support Bots</li><li>Website Chatbots</li><li>Business Information Bots</li><li>WhatsApp-based Chatbot Solutions</li><li>API Integrations</li><li>Automation</li>
+                </ul>
+              </div>
+            </section>
+          </div>
+        </div>
+      </article>
+
+      <!-- ===== PAGE 04 — SKILLS ===== -->
+      <article class="page" id="page-4" data-page="4" data-title="Tools &amp; Technologies" aria-labelledby="h-tools">
+        <div class="page-inner">
+          <header class="head">
+            <p class="eyebrow"><b>04</b> — Skills</p>
+            <h2 class="title" id="h-tools">Tools &amp; <em>Technologies</em></h2>
+          </header>
+
+          <div class="skillsets">
+            <section class="skillset">
+              <div class="skillset__label"><span>01</span><h3>Design</h3></div>
+              <ul class="skillset__list">
+                <li>Adobe Photoshop</li><li>Adobe Illustrator</li><li>Canva</li><li>Logo Design</li><li>Brand Identity</li><li>Vector Design</li>
+              </ul>
+            </section>
+            <section class="skillset">
+              <div class="skillset__label"><span>02</span><h3>Web</h3></div>
+              <ul class="skillset__list">
+                <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Responsive Design</li><li>Git</li><li>GitHub</li>
+              </ul>
+            </section>
+            <section class="skillset">
+              <div class="skillset__label"><span>03</span><h3>AI</h3></div>
+              <ul class="skillset__list">
+                <li>Python</li><li>AI Chatbots</li><li>APIs</li><li>FastAPI</li><li>AI Integrations</li><li>Automation</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </article>
+
+      <!-- ===== PAGE 05 — SELECTED WORK / CONTENTS ===== -->
+      <article class="page" id="page-5" data-page="5" data-title="Selected Work" aria-labelledby="h-selected">
+        <div class="page-inner">
+          <header class="head">
+            <p class="eyebrow"><b>05</b> — Contents</p>
+            <h2 class="title" id="h-selected">Selected <em>Work</em></h2>
+            <p class="subtitle">A collection of selected graphic design and web development projects.</p>
+          </header>
+
+          <ol class="toc">
+            <li><button class="toc__row" type="button" data-goto="6">
+              <span class="toc__no">01</span>
+              <span class="toc__main"><span class="toc__title">Graphic Design</span><span class="toc__desc">Logos, brand identity, social media, posters and marketing design.</span></span>
+              <span class="toc__leader" aria-hidden="true"></span><span class="toc__page">p. 06</span>
+            </button></li>
+            <li><button class="toc__row" type="button" data-goto="7">
+              <span class="toc__no">02</span>
+              <span class="toc__main"><span class="toc__title">Web Development</span><span class="toc__desc">Responsive websites, landing pages and business sites.</span></span>
+              <span class="toc__leader" aria-hidden="true"></span><span class="toc__page">p. 07</span>
+            </button></li>
+            <li><button class="toc__row" type="button" data-goto="8">
+              <span class="toc__no">03</span>
+              <span class="toc__main"><span class="toc__title">AI Solutions</span><span class="toc__desc">Chatbots and automation for customer communication.</span></span>
+              <span class="toc__leader" aria-hidden="true"></span><span class="toc__page">p. 08</span>
+            </button></li>
+            <li><button class="toc__row" type="button" data-goto="9">
+              <span class="toc__no">04</span>
+              <span class="toc__main"><span class="toc__title">Behind the Work</span><span class="toc__desc">Case studies: the process behind the final result.</span></span>
+              <span class="toc__leader" aria-hidden="true"></span><span class="toc__page">p. 09</span>
+            </button></li>
+          </ol>
+        </div>
+      </article>
+
+      <!-- ===== PAGE 06 — GRAPHIC DESIGN ===== -->
+      <article class="page" id="page-6" data-page="6" data-title="Graphic Design" aria-labelledby="h-graphic">
+        <div class="page-inner">
+          <header class="head head--tight">
+            <p class="eyebrow"><b>06</b> — Category 01</p>
+            <h2 class="title" id="h-graphic">Graphic <em>Design</em></h2>
+          </header>
+          <div class="mount" data-mount="graphic"><noscript>Enable JavaScript to browse projects.</noscript></div>
+        </div>
+      </article>
+
+      <!-- ===== PAGE 07 — WEB PROJECTS ===== -->
+      <article class="page" id="page-7" data-page="7" data-title="Web Projects" aria-labelledby="h-web">
+        <div class="page-inner">
+          <header class="head head--tight">
+            <p class="eyebrow"><b>07</b> — Category 02</p>
+            <h2 class="title" id="h-web">Web <em>Projects</em></h2>
+          </header>
+          <div class="mount" data-mount="web"><noscript>Enable JavaScript to browse projects.</noscript></div>
+        </div>
+      </article>
+
+      <!-- ===== PAGE 08 — AI SOLUTIONS ===== -->
+      <article class="page" id="page-8" data-page="8" data-title="AI Solutions" aria-labelledby="h-ai">
+        <div class="page-inner">
+          <header class="head head--tight">
+            <p class="eyebrow"><b>08</b> — Category 03</p>
+            <h2 class="title" id="h-ai">AI <em>Solutions</em></h2>
+          </header>
+          <div class="mount" data-mount="ai"><noscript>Enable JavaScript to browse projects.</noscript></div>
+        </div>
+      </article>
+
+      <!-- ===== PAGE 09 — CASE STUDY ===== -->
+      <article class="page" id="page-9" data-page="9" data-title="Behind the Work" aria-labelledby="h-case">
+        <div class="page-inner">
+          <header class="head head--tight">
+            <p class="eyebrow"><b>09</b> — Case study</p>
+            <h2 class="title" id="h-case">Behind the <em>Work</em></h2>
+          </header>
+          <div class="mount" data-mount="case"><noscript>Enable JavaScript to read case studies.</noscript></div>
+        </div>
+      </article>
+
+      <!-- ===== PAGE 10 — PROCESS ===== -->
+      <article class="page" id="page-10" data-page="10" data-title="How I Work" aria-labelledby="h-how">
+        <div class="page-inner">
+          <header class="head">
+            <p class="eyebrow"><b>10</b> — Approach</p>
+            <h2 class="title" id="h-how">How I <em>Work</em></h2>
+          </header>
+          <ol class="steps">
+            <li><span class="steps__no">01</span><div><h3>Understand</h3><p>Understand the business, audience and requirements.</p></div></li>
+            <li><span class="steps__no">02</span><div><h3>Plan</h3><p>Define the structure, visual direction and technical approach.</p></div></li>
+            <li><span class="steps__no">03</span><div><h3>Design</h3><p>Create the visual system and user experience.</p></div></li>
+            <li><span class="steps__no">04</span><div><h3>Build</h3><p>Develop the responsive and functional digital experience.</p></div></li>
+            <li><span class="steps__no">05</span><div><h3>Deliver</h3><p>Refine, test and deliver the final result.</p></div></li>
+          </ol>
+        </div>
+      </article>
+
+      <!-- ===== PAGE 11 — WHY WORK WITH ME ===== -->
+      <article class="page" id="page-11" data-page="11" data-title="Why Work With Me" aria-labelledby="h-why">
+        <div class="page-inner">
+          <header class="head">
+            <p class="eyebrow"><b>11</b> — Values</p>
+            <h2 class="title" id="h-why">Why Work <em>With Me</em></h2>
+          </header>
+          <ul class="reasons">
+            <li><h3>Creative Thinking</h3><p>I combine design and technology to create practical digital experiences.</p></li>
+            <li><h3>Modern Approach</h3><p>I use current design and development techniques to create clean and responsive work.</p></li>
+            <li><h3>Business Focus</h3><p>The goal is not just to make something look good, but to create something useful for the business.</p></li>
+            <li><h3>Attention to Detail</h3><p>Typography, spacing, responsiveness, interaction and visual consistency are all carefully considered.</p></li>
+            <li><h3>One Person, Multiple Skills</h3><p>Graphic design, frontend development and AI chatbot development under one creative workflow.</p></li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- ===== PAGE 12 — CONTACT / BACK COVER ===== -->
+      <article class="page page--back is-dark" id="page-12" data-page="12" data-title="Contact" aria-labelledby="h-contact">
+        <div class="page-inner">
+          <p class="eyebrow"><b>12</b> — Contact</p>
+          <h2 class="title" id="h-contact">Let&rsquo;s Create <em>Something.</em></h2>
+          <p class="lede lede--back">Have a project, business idea, website or design requirement? Let&rsquo;s turn the idea into something professional, useful and visually compelling.</p>
+
+          <div class="who">
+            <strong>Iftikhar Uddin</strong>
+            <span>Graphic Designer</span><span>Frontend Developer</span><span>AI Chatbot Developer</span>
+          </div>
+
+          <dl class="contact">
+            <div><dt>Email</dt><dd><a href="#" class="is-placeholder" data-contact="email">your.email@example.com</a></dd></div>
+            <div><dt>WhatsApp</dt><dd><a href="#" class="is-placeholder" data-contact="whatsapp">+00 000 0000000</a></dd></div>
+            <div><dt>LinkedIn</dt><dd><a href="#" class="is-placeholder" data-contact="linkedin">linkedin.com/in/your-name</a></dd></div>
+            <div><dt>GitHub</dt><dd><a href="#" class="is-placeholder" data-contact="github">github.com/your-username</a></dd></div>
+            <div><dt>Portfolio</dt><dd><a href="#" class="is-placeholder" data-contact="website">yourdomain.com</a></dd></div>
+          </dl>
+
+          <div class="cta">
+            <a class="btn btn--gold" href="#" data-contact-btn="email">Contact Me</a>
+            <a class="btn" href="#" data-contact-btn="whatsapp">WhatsApp</a>
+            <a class="btn" href="#" data-contact-btn="linkedin">LinkedIn</a>
+          </div>
+
+          <p class="thanks">Thank you for exploring my portfolio.</p>
+          <p class="backmark"><span>IU</span> &copy; 2026 Iftikhar Uddin</p>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <nav class="controls" aria-label="Portfolio navigation">
+    <button class="iconbtn" id="btnHome" type="button" aria-label="Go to cover" title="Cover">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5C4 4.7 4.7 4 5.5 4H12v16H5.5C4.7 20 4 19.3 4 18.5z"/><path d="M12 4h6.5c.8 0 1.5.7 1.5 1.5v13c0 .8-.7 1.5-1.5 1.5H12"/></svg>
+    </button>
+    <button class="iconbtn" id="btnPrev" type="button" aria-label="Previous page">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <div class="counter" aria-hidden="true"><span id="counterCur">01</span><span class="counter__sep">/</span><span>12</span></div>
+    <button class="iconbtn" id="btnNext" type="button" aria-label="Next page">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg>
+    </button>
+    <button class="iconbtn" id="btnToc" type="button" aria-label="Contents" aria-expanded="false" aria-controls="tocPanel" title="Contents">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M5 7h14M5 12h14M5 17h9"/></svg>
+    </button>
+  </nav>
+
+  <div class="toc-panel" id="tocPanel" role="dialog" aria-label="Contents" hidden>
+    <ol class="toc-panel__list" id="tocList"></ol>
+  </div>
+
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__panel">
+      <button class="modal__close" type="button" data-close aria-label="Close project">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+      <div class="modal__media" id="modalMedia"></div>
+      <div class="modal__body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <p class="visually-hidden" id="live" aria-live="polite"></p>
+
+  <noscript>
+    <p class="noscript">This portfolio is an interactive book and works best with JavaScript enabled. The pages are shown below in reading order.</p>
+  </noscript>
+
+  <script src="projects/projects.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
